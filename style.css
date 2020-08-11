@@ -5,14 +5,39 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+}
+
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
 
 /* header / Navbar */
+
+.h-container {
+    max-height: 8rem;
+    max-width: 100%;
+    margin: 0 2rem;
+}
+
+.h-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 /* Main */
