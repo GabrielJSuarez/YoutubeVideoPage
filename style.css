@@ -100,9 +100,11 @@ a {
 
 
 /* Translate & Information */
+
 .l-container {
     margin-bottom: 2rem;
 }
+
 .info-flex {
     display: flex;
     justify-content: space-between;
@@ -125,6 +127,10 @@ a {
     margin-left: 1.8rem;
 }
 
+.info-flex i {
+    cursor: pointer;
+}
+
 .c-language {
     display: flex;
     justify-content: space-between;
@@ -134,14 +140,30 @@ a {
     font-size: 1.6rem;
 }
 
+.c-language p a {
+    cursor: not-allowed;
+}
 .c-language p a, .c-language a {
     color: #167ac6;
 }
 
-
-
 /* Main */
 
+.main-flex {
+    display: flex;
+}
+
+.main-content {
+    flex-basis: calc(70% - 1rem);
+}
+
+.main-content iframe {
+    width: 100%;
+}
+
+.aside-content {
+    flex-basis: calc(30% - 1rem);
+}
 
 /* sidebar */
 
