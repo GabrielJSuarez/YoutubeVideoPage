@@ -24,34 +24,38 @@ img {
     display: flex;
 }
 
+
 /* BUTTONS*/
+
 .btn {
-    background-color: #167ac6;
+    background-color: rgb(22, 122, 198);
+    border: 0 solid #fff;
+    border-radius: 5%;
     color: #fff;
-    border: 1rem solid;
 }
+
 
 /* header / Navbar */
 
 .h-container {
     max-height: 8rem;
-    max-width: 100%;
-    margin: 0 2rem;
+    padding: 1rem 3rem;
 }
 
 .h-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .d-logo {
-    flex-basis: 20%;
+    flex-basis: calc(20% - 2rem);
     display: flex;
     align-items: center;
 }
 
-.d-logo i, .icon-header{
+.d-logo i,
+.icon-header {
     font-size: 2rem;
 }
 
@@ -60,8 +64,20 @@ img {
     padding-left: 2rem;
 }
 
+.search-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: calc(80% - 4rem);
+}
+
+.search-flex i {
+    margin: 0 auto;
+}
+
 .search-bar {
-    flex-basis: 60%;
+    display: flex;
+    flex-basis: calc(80% - 4rem);
 }
 
 .search-bar input {
@@ -69,13 +85,19 @@ img {
     height: 2.5rem;
 }
 
-.icon-header, .b-header {
-    flex-basis: calc(10% - 1rem);
+
+/*
+.icon-header,
+.b-header {
+    flex-basis: calc(10% - 2rem);
 }
+*/
 
 .b-header {
     height: 2.5rem;
+    flex-basis: 7%;
 }
+
 
 /* Main */
 
