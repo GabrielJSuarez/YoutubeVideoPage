@@ -21,6 +21,10 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .d-flex {
     display: flex;
 }
@@ -96,12 +100,16 @@ img {
 
 
 /* Translate & Information */
-
+.l-container {
+    margin-bottom: 2rem;
+}
 .info-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    background-color: #167ac6;
+    color:#fff;
 }
 
 .i-flex {
@@ -113,9 +121,23 @@ img {
     font-size: 2rem;
 }
 
-.i-flex h3 {
+.i-flex h2 {
     margin-left: 1.8rem;
 }
+
+.c-language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2.5rem;
+    border: .3rem solid #167ac6;
+    font-size: 1.6rem;
+}
+
+.c-language p a, .c-language a {
+    color: #167ac6;
+}
+
 
 
 /* Main */
