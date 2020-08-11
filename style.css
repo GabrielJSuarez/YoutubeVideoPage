@@ -95,6 +95,29 @@ img {
 }
 
 
+/* Translate & Information */
+
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.i-flex {
+    display: flex;
+    align-items: center;
+}
+
+.i-flex i {
+    font-size: 2rem;
+}
+
+.i-flex h3 {
+    margin-left: 1.8rem;
+}
+
+
 /* Main */
 
 
