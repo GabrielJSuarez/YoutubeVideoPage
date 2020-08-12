@@ -309,6 +309,12 @@ span {
 
 .p-share i {
     padding-right: 1rem;
+    font-size: 1.4rem;
+}
+
+.p-share i,
+.p-share p {
+    color: #838383;
 }
 
 .publish-date {
