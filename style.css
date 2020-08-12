@@ -163,6 +163,30 @@ a {
     height: 45rem;
 }
 
+.channel-info {
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+
+.channel-flex,
+.channel-image,
+.subscribe-channel {
+    display: flex;
+}
+
+.channel-flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel-image {
+    flex-basis: 30%;
+}
+
+.channel-image img {
+    height: 80%;
+}
+
 
 /* sidebar */
 
