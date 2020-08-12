@@ -63,6 +63,9 @@ span {
     text-align: center;
 }
 
+.bold-text {
+    font-weight: bold;
+}
 
 /* BUTTONS*/
 
@@ -370,11 +373,16 @@ aside.channel-info {
 .autoplay-flex p,
 .autoplay-flex i {
     padding-right: 1rem;
+    font-size: 1.5rem;
 }
 
 .autoplay-flex p,
 .autoplay-title h4 {
     margin: 0px;
+}
+
+.toggle {
+    color: #167ac6;
 }
 
 .thumbnail-parent {
@@ -418,6 +426,14 @@ aside.channel-info {
     margin-right: 1rem;
 }
 
+.footer-flex p {
+    margin: 0 auto;
+}
+
+.footer-flex .left-icon {
+    color: #7c7c7c;
+}
+
 .footer-flex i,
 .footer-flex p,
 .d-flex img {
@@ -431,4 +447,8 @@ aside.channel-info {
 
 .footer-p {
     padding-right: 1.5rem;
+}
+
+.footer-p-size {
+    font-size: 1.6rem;
 }
