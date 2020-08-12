@@ -33,6 +33,9 @@ hr.solid {
     display: flex;
 }
 
+.center-text {
+    text-align: center;
+}
 
 /* BUTTONS*/
 
@@ -256,13 +259,27 @@ aside.channel-info {
     margin: 0px;
 }
 
+.thumbnail-parent {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.thumbnail-flex {
+    padding: .2rem 1rem;
+} 
+
 .thumbnail-flex h3 {
     margin: 0px;
 }
 
 .thumbnail-flex p {
-    margin-top: .1rem;
+    margin: .1rem;
+    padding-top: .5rem;
 }
 
 
 /* footer */
+
+.footer-flex {
+   margin-right: 1rem;
+}
