@@ -44,9 +44,9 @@ a {
 
 .h-container {
     max-height: 8rem;
-    padding: 1rem 3rem;
     background-color: #fff;
     margin-bottom: 1rem;
+    padding: 1rem 3rem;
 }
 
 .h-flex {
@@ -111,7 +111,7 @@ a {
     align-items: center;
     padding: 0 2rem;
     background-color: #167ac6;
-    color:#fff;
+    color: #fff;
 }
 
 .i-flex {
@@ -143,27 +143,26 @@ a {
 .c-language p a {
     cursor: not-allowed;
 }
-.c-language p a, .c-language a {
+
+.c-language p a,
+.c-language a {
     color: #167ac6;
 }
+
 
 /* Main */
 
 .main-flex {
-    display: flex;
-}
-
-.main-content {
-    flex-basis: calc(70% - 1rem);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
 }
 
 .main-content iframe {
     width: 100%;
+    height: 45rem;
 }
 
-.aside-content {
-    flex-basis: calc(30% - 1rem);
-}
 
 /* sidebar */
 
