@@ -343,10 +343,16 @@ span {
 .loading-gif {
     justify-content: center;
     padding: 5rem;
+    align-items: center;
+}
+
+.loading-gif img {
+    height: 2rem;
 }
 
 .loading-gif p {
     margin-left: .5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -367,7 +373,7 @@ aside.channel-info {
 }
 
 .autoplay-flex p,
-.autoplay-title h3 {
+.autoplay-title h4 {
     margin: 0px;
 }
 
