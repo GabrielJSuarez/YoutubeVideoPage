@@ -170,21 +170,40 @@ a {
 
 .channel-flex,
 .channel-image,
-.subscribe-channel {
+.subscribe-channel,
+.share-flex {
     display: flex;
 }
 
-.channel-flex {
+.channel-flex,
+.share-flex {
     align-items: center;
     justify-content: space-between;
 }
 
 .channel-image {
-    flex-basis: 30%;
+    flex-basis: 15%;
+    justify-content: space-between;
 }
 
 .channel-image img {
-    height: 80%;
+    height: 100%;
+}
+
+.channel-name h3 {
+    margin: 0;
+}
+
+.subscribe-channel button {
+    padding: 0.3rem;
+}
+
+.p-share {
+    padding-right: 2rem;
+}
+
+.p-share i {
+    padding-right: 1rem;
 }
 
 
