@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+hr.solid {
+    border-top: .1rem solid #e4e4e4;
+}
+
 .d-flex {
     display: flex;
 }
@@ -164,7 +168,8 @@ a {
 }
 
 .channel-info {
-    margin-top: 1.5rem;
+    margin: 1.5rem auto;
+    padding: 1rem 1.5rem;
     background-color: #fff;
 }
 
@@ -206,8 +211,58 @@ a {
     padding-right: 1rem;
 }
 
+.publish-date {
+    text-align: left;
+    padding: 1rem;
+}
+
+.publish-date h3,
+.publish-date h4 {
+    margin: 0 auto;
+}
+
+.publish-date h4 {
+    text-align: center;
+}
+
+.loading-gif {
+    justify-content: center;
+    padding: 5rem;
+}
+
+.loading-gif p {
+    margin-left: .5rem;
+}
+
 
 /* sidebar */
+
+aside.channel-info {
+    margin: 0 auto;
+}
+
+.autoplay-title {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.autoplay-flex p,
+.autoplay-flex i {
+    padding-right: 1rem;
+}
+
+.autoplay-flex p,
+.autoplay-title h3 {
+    margin: 0px;
+}
+
+.thumbnail-flex h3 {
+    margin: 0px;
+}
+
+.thumbnail-flex p {
+    margin-top: .1rem;
+}
 
 
 /* footer */
