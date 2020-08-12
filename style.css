@@ -204,6 +204,10 @@ hr.solid {
     background-color: #fff;
 }
 
+.channel-container {
+    margin-bottom: 1.5rem;
+}
+
 .channel-flex,
 .channel-image,
 .subscribe-channel,
@@ -218,7 +222,7 @@ hr.solid {
 }
 
 .channel-image {
-    flex-basis: 20%;
+    flex-basis: 22%;
     justify-content: space-between;
 }
 
@@ -236,8 +240,41 @@ hr.solid {
     margin: 0;
 }
 
+.subscribe-channel {
+    align-items: center;
+}
+
 .subscribe-channel button {
-    padding: 0.3rem;
+    border-width: .1rem;
+    background-color: red;
+    color: #fff;
+}
+
+.subscribe-channel button, .subscribe-channel p {
+    padding: 0.5rem;
+    font-size: 1.4rem; 
+}
+
+.subscribe-channel button i {
+    padding-right: 0.4rem;
+}
+
+.subscribe-channel p {
+    background-color: rgb(250, 250, 250);
+    border: .1rem solid rgb(221, 221, 221);
+    color: rgb(119, 120, 121);
+}
+
+.views-flex {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    
+}
+
+.nbr-views {
+    font-size: 2rem;
+    margin: 0;
 }
 
 .p-share {
