@@ -317,18 +317,27 @@ span {
     color: #838383;
 }
 
+.date-container {
+    padding-bottom: .2rem;
+}
+
 .publish-date {
     text-align: left;
-    padding: 1rem;
-}
-
-.publish-date h3,
-.publish-date h4 {
-    margin: 0 auto;
+    padding: .5rem;
 }
 
 .publish-date h4 {
-    text-align: center;
+    margin: .3rem auto;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.publish-date p {
+    margin-top: .2rem;
+}
+
+.show-more {
+    color: #7b808b;
 }
 
 .loading-gif {
