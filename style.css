@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    width: 100%;
+    margin: 0 auto;
+    width: 95%;
     background-color: #f1f1f1;
     font-size: 1.2rem;
 }
@@ -85,6 +86,11 @@ span {
     margin: 1.5rem auto;
     padding: 1rem 1.5rem 0rem;
     background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -214,12 +220,16 @@ span {
 
 /* VIDEO PLAYER */
 
+.main-flex {
+    justify-content: space-between;
+}
+
 .main-flex main {
-    flex-basis: calc(70% - 2rem);
+    flex-basis: calc(68%);
 }
 
 .main-flex aside {
-    flex-basis: calc(30% - 2rem);
+    flex-basis: calc(30%);
 }
 
 main iframe {
