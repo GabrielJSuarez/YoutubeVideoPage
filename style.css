@@ -392,7 +392,6 @@ aside.general-background {
 }
 
 .thumbnail-parent {
-    justify-content: space-between;
     margin-bottom: 1rem;
 }
 
@@ -404,6 +403,7 @@ aside.general-background {
     font-weight: 500;
     margin: 0px;
     max-height: 5rem;
+    max-width: 20rem;
     overflow-y: hidden;
 }
 
