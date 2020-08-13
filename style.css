@@ -211,10 +211,12 @@ span {
 
 /* VIDEO PLAYER */
 
-.main-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 2rem;
+.main-flex main {
+    flex-basis: calc(70% - 2rem);
+}
+
+.main-flex aside {
+    flex-basis: calc(30% - 2rem);
 }
 
 main iframe {
