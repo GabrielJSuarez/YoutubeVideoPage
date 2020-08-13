@@ -13,56 +13,60 @@
 
 <body>
 
-    <header class="h-container h-flex">
-        <div class="d-logo">
-            <i class="fas fa-bars"></i>
+    <header class="h-container header-flex">
+        <div class="d-logo d-flex">
+            <i class="fas fa-bars icon-header"></i>
             <img src="images/yt-logo.png" alt="logo" class="logo-img">
         </div>
 
-        <div class="search-flex">
-            <form class="search-bar">
+        <div class="search-flex d-flex">
+            <form class="search-bar d-flex">
                 <input type="search" name="search" placeholder="Search">
                 <button><i class="fas fa-search yt-gray"></i></button>
             </form>
 
-            <i class="fas fa-upload icon-header"></i>
+            <i class="fas fa-upload icon-header center-margin"></i>
 
             <button class="b-header btn">Sign in</button>
         </div>
     </header>
 
     <section class="l-container">
-        <div class="info-flex">
-            <div class="i-flex">
+        <div class="info-flex d-flex">
+            <div class="i-flex d-flex">
                 <i class="fas fa-user"></i>
                 <h4>Choose your language.</h4>
             </div>
             <i class="fas fa-times"></i>
         </div>
 
-        <div class="c-language">
+        <div class="c-language d-flex">
             <p>You're viewing YouTube in <span>English (US)</span>. You can <a href="#"> change this preference below.</a></p>
             <a href="#">Learn more</a>
         </div>
     </section>
 
-    <div class="main-flex">
-        <main class="main-content">
+    <div class="main-grid">
+        <main>
 
             <iframe src="https://www.youtube.com/embed/0Wf9bRXUe8M" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <div class="channel-info">
+            <div class="general-background">
                 <div class="channel-container">
                     <h1>Contributing to Open Source Part I: The Easy Way</h1>
 
-                    <div class="channel-flex">
-                        <div class="channel-image">
+                    <div class="channel-flex d-flex">
+                        <div class="channel-image d-flex">
                             <img src="images/profile-channel-img.jpg" alt="User Profile Photo">
 
                             <div class="channel-name d-flex">
                                 <p>The Odin Project</p>
-                                <div class="subscribe-channel">
-                                    <button><i class="fab fa-youtube"></i>Subscribe</button>
+                                <div class="subscribe-channel d-flex">
+                                    <button>
+                                        <div class="d-flex">
+                                            <i class="fab fa-youtube"></i>Subscribe
+                                        </div>
+                                    </button>
                                     <p>799</p>
                                 </div>
                             </div>
@@ -77,31 +81,31 @@
                 <hr class="solid b-line">
 
 
-                <div class="share-flex">
-                    <div class="share-flex">
-                        <div class="share-flex p-share">
+                <div class="share-flex d-flex">
+                    <div class="share-flex d-flex">
+                        <div class="share-flex d-flex p-share">
                             <i class="fas fa-plus"></i>
                             <p>Add to</p>
                         </div>
 
-                        <div class="share-flex p-share">
+                        <div class="share-flex d-flex p-share">
                             <i class="fas fa-share"></i>
                             <p>Share</p>
                         </div>
 
-                        <div class="share-flex p-share">
+                        <div class="share-flex d-flex p-share">
                             <i class="fas fa-ellipsis-h"></i>
                             <p>More</p>
                         </div>
                     </div>
 
-                    <div class="share-flex">
-                        <div class="share-flex p-share">
+                    <div class="share-flex d-flex">
+                        <div class="share-flex p-share d-flex">
                             <i class="fas fa-thumbs-up"></i>
                             <p>359</p>
                         </div>
 
-                        <div class="share-flex p-share">
+                        <div class="share-flex p-share d-flex">
                             <i class="fas fa-thumbs-down"></i>
                             <p>14</p>
                         </div>
@@ -109,7 +113,7 @@
                 </div>
             </div>
 
-            <section class="channel-info date-container">
+            <section class="general-background date-container">
                 <div class=" publish-date">
                     <h4>Published on Feb 27, 2014</h4>
 
@@ -128,14 +132,14 @@
                 </a>
             </section>
 
-            <div class="channel-info d-flex loading-gif">
+            <div class="general-background d-flex loading-gif">
                 <img src="images/loading-img" alt="Loading logo ">
                 <p class="yt-gray">Loading...</p>
             </div>
 
         </main>
 
-        <aside class="channel-info ">
+        <aside class="general-background ">
             <div class="d-flex autoplay-title ">
                 <h4> Up Next</h4>
 
@@ -370,7 +374,7 @@
         </aside>
     </div>
 
-    <footer class="channel-info footer-m ">
+    <footer class="general-background footer-m ">
         <div class="d-flex footer-buttons ">
             <img src="images/yt-logo.png " alt="logo " class="footer-logo-img ">
 

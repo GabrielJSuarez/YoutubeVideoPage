@@ -9,6 +9,7 @@ html {
 body {
     width: 100%;
     background-color: #f1f1f1;
+    font-size: 1.2rem;
 }
 
 *,
@@ -76,6 +77,16 @@ span {
     margin: 1rem;
 }
 
+.center-margin {
+    margin: 0 auto;
+}
+
+.general-background {
+    margin: 1.5rem auto;
+    padding: 1rem 1.5rem 0rem;
+    background-color: #fff;
+}
+
 
 /* BUTTONS*/
 
@@ -88,7 +99,10 @@ span {
 }
 
 
-/* header / Navbar */
+/* HEADER */
+
+
+/* NAVBAR */
 
 .h-container {
     max-height: 8rem;
@@ -97,7 +111,7 @@ span {
     padding: 1rem 3rem;
 }
 
-.h-flex {
+.header-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -105,11 +119,9 @@ span {
 
 .d-logo {
     flex-basis: calc(20% - 2rem);
-    display: flex;
     align-items: center;
 }
 
-.d-logo i,
 .icon-header {
     font-size: 2rem;
     color: #b5b5b5;
@@ -121,24 +133,23 @@ span {
 }
 
 .search-flex {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100rem;
 }
 
-.search-flex i {
-    margin: 0 auto;
-}
-
 .search-bar {
-    display: flex;
     width: 82rem;
 }
 
 .search-bar input {
     width: 100%;
     height: 2.5rem;
+}
+
+.search-bar input::placeholder {
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
 }
 
 .b-header {
@@ -154,7 +165,6 @@ span {
 }
 
 .info-flex {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
@@ -163,7 +173,6 @@ span {
 }
 
 .i-flex {
-    display: flex;
     align-items: center;
 }
 
@@ -180,7 +189,6 @@ span {
 }
 
 .c-language {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0rem 2.5rem;
@@ -200,32 +208,25 @@ span {
 
 /* Main */
 
-.main-flex {
+
+/* VIDEO PLAYER */
+
+.main-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 2rem;
 }
 
-.main-content iframe {
+main iframe {
     width: 100%;
     height: 45rem;
 }
 
-.channel-info {
-    margin: 1.5rem auto;
-    padding: 1rem 1.5rem 0rem;
-    background-color: #fff;
-}
+
+/*CHANNEL INFORMATION*/
 
 .channel-container {
     margin-bottom: 1.5rem;
-}
-
-.channel-flex,
-.channel-image,
-.subscribe-channel,
-.share-flex {
-    display: flex;
 }
 
 .channel-flex,
@@ -241,7 +242,6 @@ span {
 
 .channel-image img {
     height: 100%;
-    font-weight: bold;
 }
 
 .channel-name {
@@ -280,9 +280,9 @@ span {
 }
 
 .views-flex {
-    display: flex;
     flex-direction: column;
     align-self: flex-end;
+    color: #676767;
 }
 
 .nbr-views {
