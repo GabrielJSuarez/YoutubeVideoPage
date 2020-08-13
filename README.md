@@ -6,6 +6,10 @@
 
 http://archive.vn/Bss88
 
+
+
+![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/Youtube-Clone-Feature/screenshot.png?raw=true "Screenshot")
+
 Additional description about the project and its features.
 
 ## Built With
@@ -14,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://gabrieljsuarez.github.io/YoutubeVideoPage/)
 
 
 ## Getting Started
