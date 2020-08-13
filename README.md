@@ -8,7 +8,7 @@ http://archive.vn/Bss88
 
 
 
-![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/Youtube-Clone-Feature/app-screenshot.png "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/Youtube-Clone-Feature/screenshot.png?raw=true "Screenshot")
 
 Additional description about the project and its features.
 
