@@ -45,10 +45,15 @@ img {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 span {
     font-weight: 700;
+}
+
+.yt-gray {
+    color: #7b808b;
 }
 
 .solid {
@@ -66,6 +71,11 @@ span {
 .bold-text {
     font-weight: bold;
 }
+
+.no-margin {
+    margin: 1rem;
+}
+
 
 /* BUTTONS*/
 
@@ -114,7 +124,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-basis: calc(80% - 4rem);
+    width: 100rem;
 }
 
 .search-flex i {
@@ -123,7 +133,7 @@ span {
 
 .search-bar {
     display: flex;
-    flex-basis: calc(80% - 4rem);
+    width: 82rem;
 }
 
 .search-bar input {
@@ -203,7 +213,7 @@ span {
 
 .channel-info {
     margin: 1.5rem auto;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem 0rem;
     background-color: #fff;
 }
 
@@ -339,10 +349,6 @@ span {
     margin-top: .2rem;
 }
 
-.show-more {
-    color: #7b808b;
-}
-
 .loading-gif {
     justify-content: center;
     padding: 5rem;
@@ -382,6 +388,7 @@ aside.channel-info {
 }
 
 .toggle {
+    text-align: center;
     color: #167ac6;
 }
 
@@ -394,13 +401,17 @@ aside.channel-info {
     padding: .2rem 1rem;
 }
 
-.thumbnail-flex h3 {
+.thumbnail-flex h4 {
+    font-weight: 500;
     margin: 0px;
+    max-height: 5rem;
+    overflow-y: hidden;
 }
 
 .thumbnail-flex p {
     margin: .1rem;
     padding-top: .5rem;
+    font-size: 1.2rem;
 }
 
 
