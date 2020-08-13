@@ -341,7 +341,6 @@ main iframe {
 
 .publish-date h4 {
     margin: .3rem auto;
-    font-weight: bold;
     font-size: 1.4rem;
 }
 
@@ -367,7 +366,7 @@ main iframe {
 
 /* sidebar */
 
-aside.channel-info {
+aside.general-background {
     margin: 0 auto;
 }
 
@@ -384,7 +383,7 @@ aside.channel-info {
 
 .autoplay-flex p,
 .autoplay-title h4 {
-    margin: 0px;
+    margin: 0rem;
 }
 
 .toggle {
@@ -419,7 +418,7 @@ aside.channel-info {
 
 .footer-m {
     padding: 1.5rem 2.5rem 2.5rem 3rem;
-    margin-bottom: 10rem;
+    margin: 10rem auto;
 }
 
 .footer-buttons {
@@ -428,13 +427,14 @@ aside.channel-info {
 
 .footer-logo-img {
     width: 13rem;
+    padding-right: 1rem;
 }
 
 .footer-flex {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 1rem;
+    text-align: center;
 }
 
 .footer-flex p {
@@ -445,15 +445,12 @@ aside.channel-info {
     color: #7c7c7c;
 }
 
-.footer-flex i,
-.footer-flex p,
-.d-flex img {
-    padding-right: .8rem;
+.footer-flex i {
+    margin: auto .8rem;
 }
 
-.footer-flex i:last-child,
-.footer-flex p:last-child {
-    padding-right: 0px;
+.footer-button button:last-child {
+    margin-left: 0px;
 }
 
 .footer-p {
