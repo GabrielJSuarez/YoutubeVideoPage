@@ -6,7 +6,7 @@
 
 http://archive.vn/Bss88
 
-![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/Youtube-Clone-Feature/screenshot.png?raw=true "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/master/screenshot.png?raw=true "Screenshot")
 
 ## Built With
 
