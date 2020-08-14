@@ -6,11 +6,7 @@
 
 http://archive.vn/Bss88
 
-
-
 ![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/Youtube-Clone-Feature/screenshot.png?raw=true "Screenshot")
-
-Additional description about the project and its features.
 
 ## Built With
 
@@ -23,9 +19,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-The project is public, clone it with 
-
-To get a local copy up and running follow these simple example steps.
+The project is public.
 
 ## Authors
 
@@ -45,18 +39,6 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
